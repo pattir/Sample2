@@ -1,0 +1,162 @@
+/****  BASIC STYLES ****/
+@font-face{
+	font-family: 'Wisdom Script';
+	src: url("../fonts/wisdom-script.otf") format("opentype");
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	width: 1200px;
+}
+
+.container {
+	width: 1200px;
+	margin: 20px 40px 20px 40px;
+}
+
+a.one:link, a.one:visited, a.one:hover, a.one:active {
+	color: #77A466;
+	text-decoration: none;
+    
+}
+
+h1, h2, nav {
+	color: #77A466;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h3, h4 {
+	color: #000000;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 12px;
+}
+
+h4 {
+	font-size: 16px;
+}
+
+p {
+	font-size: 16px;
+	line-height: 30px;
+}
+
+/**** GRID ****/
+
+.row {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.column {
+	float: left;
+	height: auto;
+	width: 398px;
+	padding-top: 26px;
+	padding-bottom: 26px;
+}
+
+/* --- Clear floats after the columns --- */
+.row:after {
+    clear: both;
+	content: "";
+    display: table;
+}
+
+
+
+/**** HEADER ****/
+
+header h1 {
+	text-transform: uppercase;
+	float: left;
+}
+
+header h1 span {
+	color: #000000;
+}
+
+header nav {
+	float: right;
+	padding-top: 20px;
+	word-spacing: 15px;
+}
+
+header nav ul li {
+	display: inline-block;
+}
+
+/**** Welcome SECTION ****/
+
+#welcome {
+	margin: 0 auto;
+	clear: both;
+	padding-bottom: 24px;
+	border-bottom: 1px solid #585858;
+}
+
+#veggie_image {
+	height: auto;
+}
+
+#veggie_image img {
+	border-top: 3px solid #77A466;	
+	border-bottom: 3px solid #77A466;
+}
+
+/**** Info SECTION ****/
+
+#specials_ul  {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+.specials_li {
+	color: #77A466;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 36px;
+}
+
+.column.reviews {
+	width: 440 px;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-left: 1px solid #585858;
+	border-right: 1px solid #585858;
+}
+
+.column.contact {
+	width: 270px;
+	padding-left: 25px;
+
+}
+
+
+
+/**** FOOTER Content ****/
+
+footer {
+	height: 50px;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+	border-top: 1px solid #585858;
+	padding-top: 24px;
+}
+
+footer h4 span {
+	font-family: 'Wisdom-Script';
+	font-weight: bold;
+	font-size: 20px;
+	font-style: oblique;
+	color: #77A466;
+	text-transform: lowercase;
+}
+
